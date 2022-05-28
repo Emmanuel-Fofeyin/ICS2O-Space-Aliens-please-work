@@ -1,8 +1,8 @@
 /* global Phaser */
 
-// Copyright (c) 2022 Evgeny Vovk All rights reserved
+// Copyright (c) 2022 Emmanuel All rights reserved
 //
-// Created by: Evgeny Vovk
+// Created by: Emmanuel-Fofeyin
 // Created on: May 2022
 // This is the Game Scene
 
@@ -27,7 +27,7 @@ class GameScene extends Phaser.Scene {
     this.fireMissile = false
     this.score = 0
     this.scoreText = null
-    this.scoreTextStyle = { font: "65px Arial", fill: "#ffffff", align: "center"}
+    this.scoreTextStyle = { font: "65px Oswald", fill: "#ffffff", align: "center"}
   }
 
   init(data) {
